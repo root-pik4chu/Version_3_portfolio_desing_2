@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@font-face {
+   font-family: f1;
+   src: url(./fonts/HELVETICA.TTF) format('truetype');
+ }
+
+/* span{
+   color: rgb(255, 80, 10)
+}
+ */

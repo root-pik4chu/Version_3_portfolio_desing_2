@@ -1,0 +1,55 @@
+/* * {
+   outline: 2px solid red !important;
+ }
+ */
+
+ 
+main {
+  position: fixed;
+  top:10vh;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+}
+
+.slider {
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  width: 2800px;
+  height: 100%;
+
+}
+
+.slider_inner {
+  position: absolute;
+  top: -10%;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  gap: .5vw;
+  justify-content: space-around;
+}
+
+.item {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  overflow: hidden;
+  /* background-color: #e22e2e; */
+  
+}
+
+.img {
+  position: absolute;
+  left: -100px;
+  width: 600px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  /* filter: grayscale(100%); */
+  will-change: transform;
+}
+
+
+
