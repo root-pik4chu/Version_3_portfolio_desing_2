@@ -72,32 +72,32 @@ function Home() {
 
   return (
     <div className="w-full flex items-center justify-center bg-zinc-50 text-zinc-800">
-      <div className="w-[95%] h-[90vh]">
+      <div className="w-[98%] h-[90vh]">
         <div className="w-full h-[20vh] flex items-start flex-col overflow-hidden ">
-          <h1 className="text-[4vw] leading-none ">
+          <h1 className="text-[3.5vw] leading-none ">
             <SplitText 
-              text="My Name is Sahil Saundale. I'm a Front End Developer" 
+              text="My Name is Sahil Saundale. I'm a Front End Developer based" 
               className="tracking-tight"
             />
             
-            <div className="w-full  flex overflow-hidden ">
-            <h1 className="text-[4vw] leading-none ">
+            <div className="w-full  flex  ">
+            <h1 className="text-[4vw] leading-none mt-[-1vw] overflow-hidden">
             <SplitText 
-                text="based in Maharashtra" 
+                text="in Maharashtra" 
                 className="flex tracking-tight"
               />
             </h1>
               
               
-              <div className="root text-2xl h-fit">
-                <div className="flex items-center justify-center mt-[2vw] mx-[2vw] px-[2vw] py-[0.3vw] text-[1vw] border-zinc-300 border-1 rounded-[2vw] overflow-hidden">
+              <div className="root text-2xl h-fit -ml-[2vw] relative">
+                <div className="flex items-center justify-center  mt-[0.8vw] mx-[2vw] px-[2vw] py-[0.3vw] text-[1vw] border-zinc-300 border-1 rounded-[2vw] overflow-hidden">
                 <motion.span
                   className=""
                   style={{ color: "#18181b" }}
                   initial={{ y: "100%", opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ 
-                    delay: 1.8, 
+                    delay: 1.1, 
                     duration: 0.4,
                     ease: [0.33, 1, 0.68, 1]
                   }}

@@ -3,6 +3,13 @@
  }
  */
 
+ :root{
+  --text_color: #505050;
+  --bg-color: #eeeeee;
+  --highlighter: #E82700;
+  --border_color: #c0c0c0;
+  --text_white: #fff;
+}
  
 main {
   position: fixed;
@@ -24,7 +31,7 @@ main {
 .slider_inner {
   position: absolute;
   top: -10%;
-  height: 80%;
+  height: 95%;
   width: 100%;
   display: flex;
   gap: .5vw;
