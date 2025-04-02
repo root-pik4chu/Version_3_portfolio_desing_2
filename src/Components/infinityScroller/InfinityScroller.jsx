@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import ParallaxImage from './parallaxImage';
+// import ParallaxImage from './parallaxImage';
 
 const InfinityScroller = ({direction , bgColor , text}) => {
   // Array of scrolling items to avoid repetitive code

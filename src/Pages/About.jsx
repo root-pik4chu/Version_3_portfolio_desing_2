@@ -1,7 +1,7 @@
 
 import React from "react";
 import InfinityScroller from "../Components/infinityScroller/infinityScroller";
-import InfinityScrollerWithParallax from "../Components/infinityScroller/infinityScrollerWithParallax";
+// import InfinityScrollerWithParallax from "../Components/infinityScroller/infinityScrollerWithParallax";
 
 
 function About() {
