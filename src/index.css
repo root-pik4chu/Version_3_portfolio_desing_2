@@ -4,7 +4,14 @@
    font-family: f1;
    src: url(./fonts/HELVETICA.TTF) format('truetype');
  }
-
+ :root{
+   --text_color: #505050;
+   --bg-color: #eeeeee;
+   --highlighter: #E82700;
+   --border_color: #c0c0c0;
+   --text_white: #fff;
+ }
+  
 /* span{
    color: rgb(255, 80, 10)
 }

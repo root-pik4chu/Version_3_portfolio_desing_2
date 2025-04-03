@@ -1,6 +1,6 @@
 
 import React from "react";
-import InfinityScroller from "../Components/infinityScroller/infinityScroller";
+import InfinityScroller from "../Components/infinityScroller/InfinityScroller";
 // import InfinityScrollerWithParallax from "../Components/infinityScroller/infinityScrollerWithParallax";
 
 
